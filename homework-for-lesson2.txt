@@ -1,0 +1,23 @@
+1. Write a function that accepts any number, multiplies it by 2 and prints it.
+Example:
+multiplyByTwo(4)
+expected result: 8
+
+2. Write a function that takes an array of numbers and prints each of them in the power of two.
+Example:
+powerByTwo([2,6,3,1])
+expected result:
+4
+36
+9
+1
+
+[Advanced: if you solve this one, you can buy credit of 200 000 Toman for future absence)
+3. Write a function that accepts an array of numbers, for each number, if the number is even, it multiplies it by two, and if it's odd, it multiplies it by 3. 
+Example:
+multiplyOddsByThreeEvensByTwo([2,5,4,3])
+expected result:
+4
+15
+8
+9
