@@ -1,0 +1,22 @@
+Here are exercisses for lesson 3.
+For every lesson we'll try to put together wahtever we have learned so far.
+https://github.com/noviceGuru/aria/tree/lesson2
+EX1. Write a function that accepts a string (as argument) and returns a string, with "is a good boy" added to it.
+example: 
+let output = addIsAGoodBoy('Amin')
+console.log(output) // expected to print "Amin is a good boy"
+
+EX2. Write a function that accepts a string and returns a string, with "is a bad boy" added to it.
+
+EX3. Write a function that if takes "Amin" as argument, returns "Amin is a good boy", and if takes "Aria" as argument, returns "Aria is a bad boy".
+Try to use the functions that you wrote in exercises 1 and 2.
+
+Bonus: You will get 200 000 Tomans credit if you do it correctly.
+EX4. Write a function that accepts an array of numbers and for each number, if it is and odd number, prints "'The number' is an odd number" and if an even number returns "'the number' is and even number"
+example: let output tellsIfOddOrEven([1,4,5])
+console.log(output) // expected result: ['1 is an odd number', '4 is an even number', '5 is an even number']
+
+Send your answers to amin.arabi@gmail.com, in a txt file.
+If you had any questions, let me know.
+Cheers
+
