@@ -1,0 +1,60 @@
+EXERCISES
+
+Consider the JSON below, for all the questions that are given in the first segment of the questions.
+Please use only arrow functions.
+
+let customers = [
+    {
+        "name" : "Amin",
+        "surname": "Arabi",
+        "role" : "God",
+        "age" : 31,
+        "hasKids" : true,
+        "carBrand" : null
+    },
+    {
+        "name" : "Amin",
+        "surname": "Mammadi",
+        "role" : "Prophet",
+        "age" : 32,
+        "hasKids" : true,
+        "carBrand" : "Pride"
+    },
+    {
+        "name" : "Aria",
+        "surname": "Mirzaee",
+        "role" : "Deciple",
+        "age" : 33,
+        "hasKids" : false,
+        "carBrand" : "Stepway"
+    },
+    {
+        "name" : "Mona",
+        "surname": "Khalesi",
+        "role" : "God",
+        "age" : 36,
+        "hasKids" : true,
+        "carBrand" : "Mercedes"
+    },
+    {
+        "name" : "Mehatma",
+        "surname": "Gandhi",
+        "role" : "Deciple",
+        "age" : 99,
+        "hasKids" : false,
+        "carBrand" : "Goat"
+    }
+]
+
+PART I: ARRAY METHODS
+1. For the customers above, wirte a function that returns only the customers that are 33 years old or younger and have kids.
+[hint: your favorite array method should be "filter"]
+
+2. Write a function that for any customer who doen not have kids, adds an instance: "isFree: true" and for those who have kids, adds "isFree : false".
+[hint: you can use either map or forEach. Write it once with map, and once with forEach. Once and forever, understand the difference, you'll be happier through your career.]
+
+3. Find the first customer who dirves a "Stepway".
+
+PART II: MUTABILITY
+1. For the first question of part I, before doing the operation, take a backup from the original JSON, and store it in a variable called "theOriginal".
+In the end compare the original and the final answer, and make sure that the original has remained intact.
