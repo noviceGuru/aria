@@ -1,0 +1,5 @@
+1. Make a console.log inside the html page, inside <script> tag.
+2. Show what DOM is.
+3. Make a click event, just to show the concept of events in the browser. console.log by click.
+4. Separate the script tag in a file.
+5. Make a calculator.
