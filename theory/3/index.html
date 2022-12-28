@@ -18,15 +18,15 @@
 </style>
 
 <script>
-    console.log(document)
-    
-    let theButton = document.getElementById("magicButton")
+    // 1. find the button
+    // 2. add an event to the button. (click)
+    // 3. tell what to do when the event happened.
+// console.log(document.firstChild.children[2].children[0])
+let magicButton = document.getElementById("magicButton")
 
-    // addEventListener("What element", "What to do")
-    // theButton.addEventListener("click", (e)=>console.log('Amin'))
+magicButton.addEventListener("click",()=>console.log('Amin'))
+magicButton.onclick = () => console.log('Clicked!')
 
-    // More straightforward
-    // theButton.onclick = () =>console.log('Amin')
 </script>
 
 
