@@ -1,0 +1,11 @@
+#button-container{
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    gap: 5px;
+}
+
+#input-number{
+    width: 80px;
+}

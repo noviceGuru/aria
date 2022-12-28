@@ -2,4 +2,5 @@
 2. Show what DOM is.
 3. Make a click event, just to show the concept of events in the browser. console.log by click.
 4. Separate the script tag in a file.
+5. How HTML tags work. Example: input tag.
 5. Make a calculator.
