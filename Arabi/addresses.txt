@@ -1,0 +1,7 @@
+. => here
+.. => a folder upper
+/ => inside a folder Example: styles/styles.css
+
+./styles/styles.css
+
+../
